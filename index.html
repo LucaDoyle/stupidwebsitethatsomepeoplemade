@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stupid website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1>Welcome to the stupid website!</h1>
+    <p>This very, very stupid website was made by Luca and: </p>
+    <img src="pink_fallguy.webp" class="fall-guy-image">
+    <p>hi</p>
+    <button onclick="window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'">Click here for fun!</button>
+</body>
+
+<style>
+    .fall-guy-image {
+        width: 5%;
+        animation: rotate 2s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rotate {
+        from {
+            rotate: 0deg;
+        }
+
+        to {
+            rotate: 360deg;
+        }
+    }
+
+    body {
+        font-family: 'Asap', sans-serif;
+        text-align: center;
+    }
+
+    button {
+        font-family: 'Comic Sans MS', sans-serif;
+        font-size: 40px;
+        animation: colour-change-thing 10s;
+        animation-iteration-count: infinite;
+        transition: all 1s;
+    }
+
+    @keyframes colour-change-thing {
+        from {
+            color: red;
+        }
+
+        to {
+            color: blue;
+        }
+    }
+
+    button:hover {
+        font-size: 50px;
+        border-radius: 10px;
+        color: yellow;
+        animation: none;
+    }
+</style>
+</html>
